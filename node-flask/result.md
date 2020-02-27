@@ -1,4 +1,7 @@
 Code is available at: https://github.com/StackHack-Dev/benchmarks/tree/master/node-flask
+No optimization were done on both.
+Same http get request was performed on both
+One test at a time
 
 # Flask
 ```
