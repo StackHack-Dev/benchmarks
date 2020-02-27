@@ -1,5 +1,5 @@
 # Flask
-
+```
 ab -n 10000 -c 100 http://127.0.0.1:5000/
 This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -54,8 +54,10 @@ Percentage of the requests served within a certain time (ms)
   98%    172
   99%   1785
  100%   3167 (longest request)
+```
 
 # Node
+```
 ab -n 1000 -c 100 http://localhost:2011/
 This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -110,3 +112,4 @@ Percentage of the requests served within a certain time (ms)
   98%  14666
   99%  14698
  100%  19425 (longest request)
+```
